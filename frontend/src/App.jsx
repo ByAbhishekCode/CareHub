@@ -7,7 +7,7 @@ import Appointment from "./pages/Appointment";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import { ToastContainer, toast } from "react-toastify";
-import Navbar from "./components/Change";
+import Navbar from "./components/NavBar";
 import { Context } from "./main";
 import axios from "axios";
 import Footer from "./components/Footer";
