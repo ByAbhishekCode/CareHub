@@ -7,7 +7,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #e5e5e5;
+  background: #212121;
 }
 .btn {
   padding: 7px 20px;
@@ -436,17 +436,17 @@ nav {
   justify-content: space-between;
   position: absolute;
   align-items: center;
+  border-radius: 20px;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
   z-index: 2;
 }
 nav .logo {
   flex: 1;
   display: flex;
   align-items: center;
-  font-size: 2rem;
 }
 nav .navLinks {
   flex: 2;
@@ -454,21 +454,25 @@ nav .navLinks {
 nav .navLinks {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 nav .navLinks .links {
   display: flex;
-  gap: 25px;
+  gap: 40px;
+  align-items: center;
+  padding: 10px 30px !important;
+  border: 2px solid #ffffff;
+  background: white;
+  border-radius: 30px;
 }
 nav .navLinks .links a {
   text-decoration: none;
-  color: #222;
+  color: #212121;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1.4px;
 }
 nav .navLinks .links a:hover {
-  color: #000;
+  color: #1abc9c;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -483,16 +487,16 @@ nav .btn {
   z-index: 2;
 }
 nav .logoutBtn {
-  background: linear-gradient(135deg, black, rgb(49, 49, 49));
+  background: linear-gradient(135deg, #1abc9c, rgb(49, 49, 49));
 }
 nav .loginBtn {
-  background: linear-gradient(135deg, black, rgb(49, 49, 49));
+  background: linear-gradient(135deg, #1abc9c, rgb(49, 49, 49));
 }
 nav .hamburger {
   display: none;
 }
 nav svg {
-  font-size: 1.75rem;
+  font-size: 1rem;
 }
 @media (max-width: 1520px) {
   nav {
@@ -581,9 +585,9 @@ input[type="time"]:before {
   color: #444;
   margin-right: 0.5em;
 }
-.logo-img{
+.logo-img {
   width: 150px;
 }
-footer .logo-img{
+footer .logo-img {
   width: 100%;
 }
